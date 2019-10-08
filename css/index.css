@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5 {
 		display: flex;
 		align-items: center;
 	}
-	
+
 	.navigation a:hover{
 		color: #137a86;
 	}
@@ -386,8 +386,7 @@ h1, h2, h3, h4, h5 {
 
 	/* Header */
 	.header{
-		border: 1px solid green;
-		margin: 15% 0 1% 0;
+		margin: 8% 0 5% 0;
 		padding: 0;
 		display: flex;
 		flex-flow: row wrap;
