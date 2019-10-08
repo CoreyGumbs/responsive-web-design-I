@@ -98,7 +98,6 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	
 }
 
 .navigation a{
@@ -341,6 +340,16 @@ h1, h2, h3, h4, h5 {
 		width: 90%;
 		border: 1px solid red;
 	}
+
+	.navigation a{
+		font-size: 1rem;
+	}
+	
+	 .logo{
+		 width: 153px;
+		 height: 36px;
+		 
+	 }
 }
 
 /* Width: 500px */
