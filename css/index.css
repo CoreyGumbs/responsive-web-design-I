@@ -334,7 +334,6 @@ h1, h2, h3, h4, h5 {
 	/* Main Containerh */
 	.container{
 		width: 95%;
-		border: 1px solid blue;
 	}
 
 	/* Navigation */
@@ -406,6 +405,7 @@ h1, h2, h3, h4, h5 {
 	.cta-box a{
 		margin: 5% 0;
 		padding: 2% 10%;
+		font-size: 1.5rem;
 	}
 	
 	.cta-box a:hover{
@@ -424,8 +424,50 @@ h1, h2, h3, h4, h5 {
 		height: 0;
 		visibility: hidden;
 	}
-	
-	
+	 /* Body Content - Sections */
+
+	 .section-container{
+		font-size: 1.2rem
+	}
+	.section-border{
+		padding: 5% 0;
+	}
+
+	.section-col-top{
+		width: 46%;
+	}
+
+	.section-col-bottom{
+		width: 31%;
+	}
+
+	.section-col-header{
+		font-size: 1.7rem;
+	}
+
+	.contact{
+		margin: 5% 0;
+		padding: 30px 0;
+	}
+
+	.contact p {
+		line-height: 2;
+	}
+
+	.address{
+		margin: 10% 0;
+		line-height: 1.5;
+	}
+
+	.footer{
+		background-color: white;
+		color: black;
+	}
+
+	.copyright{
+		width: 100%;
+		text-align: center;	
+	}
 }
 
 /* Width: 500px */
