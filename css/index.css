@@ -116,8 +116,7 @@ h1, h2, h3, h4, h5 {
 
  .logo{
 	 width: 183px;
-	 height: 36px;
-	 
+	 height: 36px; 
  }
 
 .header{
@@ -331,6 +330,8 @@ h1, h2, h3, h4, h5 {
 
 /* Width: 800px */
 @media(max-width: 800px){
+
+	/* Main Container */
 	.container{
 		width: 90%;
 		border: 1px solid blue;
@@ -338,18 +339,59 @@ h1, h2, h3, h4, h5 {
 
 	.nav-container{
 		width: 90%;
-		border: 1px solid red;
 	}
 
 	.navigation a{
 		font-size: 1rem;
 	}
 	
-	 .logo{
-		 width: 153px;
-		 height: 36px;
-		 
-	 }
+	.logo{
+		width: 153px;
+		height: 36px;	 
+	}
+
+	.header{
+		border: 1px solid green;
+		margin: 15% 0 1% 0;
+		padding: 0;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;	
+	}
+	
+	.cta-box{
+		width: 100%;
+	}
+	
+	.cta-header{
+		width: 100%;
+		margin: 1% auto;
+		font-size: 7rem;
+	}
+	
+	.cta-box a{
+		margin: 5% 0;
+		padding: 2% 10%;
+	}
+	
+	.cta-box a:hover{
+		color: white;
+		background-color: black;
+	}
+	
+	.cta-box:nth-child(2){
+		margin: 0;
+		padding: 0;
+		visibility: hidden;
+	}
+
+	.cta-img{
+		width: 0;
+		height: 0;
+		visibility: hidden;
+	}
+	
+	
 }
 
 /* Width: 500px */
